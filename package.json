@@ -49,5 +49,8 @@
     ],
     "include": "lib/**/*.js",
     "exclude": "test/**/*.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
