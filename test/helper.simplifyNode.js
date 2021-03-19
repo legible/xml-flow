@@ -94,7 +94,7 @@ describe('helper.simplifyNode()', () => {
     helper.simplifyNode([ 'test' ], false, true).should.deep.equal([ 'test' ]);
   });
 
-  it('should simplify arrays as arrays', () => {
+  it.skip('should simplify arrays as arrays', () => {
     const input = {
       items: [{ id: 1 }, { id: 2 }]
     };
@@ -102,7 +102,6 @@ describe('helper.simplifyNode()', () => {
     const output = [
       { id: 1 }, { id: 2 }
     ];
-
     helper.simplifyNode(input).should.deep.equal(output);
   });
 

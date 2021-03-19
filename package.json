@@ -1,6 +1,6 @@
 {
-  "name": "xml-flow",
-  "version": "1.0.4",
+  "name": "@legible/xml-flow",
+  "version": "2.0.0",
   "description": "An XML/HTML stream reader, now with less suck.",
   "main": "lib/xml-flow.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthewmatician/xml-flow.git"
+    "url": "https://github.com/legible/xml-flow.git"
   },
   "keywords": [
     "xml",
@@ -19,12 +19,15 @@
     "parse",
     "huge files"
   ],
-  "author": "Matthew Larson <matthewmatician@gmail.com>",
+  "author": "Legible <opensource@legible.com>",
+  "contributors": [
+    "Matthew Larson <matthewmatician@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matthewmatician/xml-flow/issues"
+    "url": "https://github.com/legible/xml-flow/issues"
   },
-  "homepage": "https://github.com/matthewmatician/xml-flow",
+  "homepage": "https://github.com/legible/xml-flow",
   "dependencies": {
     "sax": "^1.2.4"
   },

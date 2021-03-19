@@ -33,6 +33,12 @@
     <person name="Smitty" id="3" age="37">
       <thing id="999" ref="blah"></thing>
     </person>
+    <person>
+      <thing>some text</thing>
+      <foo>
+        <bar>some text</bar>
+      </foo>
+    </person>
   </mixed>
 
   <markup>
